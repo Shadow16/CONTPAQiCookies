@@ -6,8 +6,7 @@ import javax.servlet.http.*;
  
 @SuppressWarnings("serial")
 public class Servlet extends HttpServlet {
-   @SuppressWarnings("null")
-@Override
+   @Override
    public void doGet(HttpServletRequest request, HttpServletResponse response)
                throws IOException, ServletException {
      
@@ -91,7 +90,7 @@ public class Servlet extends HttpServlet {
       
       try {
          out.println("<!DOCTYPE html>");
-         out.println("<html><head>");
+         out.println("<html lang=\"es\"><head>");
          out.println("<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>");
          out.println("<link rel=\"stylesheet\"\r\n" + 
          		"	href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\"\r\n" + 
